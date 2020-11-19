@@ -1,0 +1,88 @@
+#container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1rem;
+	overflow: hidden;
+}
+/* utility class*/
+h2{
+	padding: 1rem;
+	color: black;
+}
+h4{
+	padding: 0.8rem;
+	color:white ;
+}
+.main-heading{
+	background: #99ddff;
+}
+.sub-heading{
+   background: blue;
+}
+.form-wrap{
+	margin-top: -20px;
+	padding-left: 2rem;
+	border: 1px solid blue;
+	padding-bottom: 2rem;
+	padding-top: 20px;
+}
+.form-group{
+	display: flex;
+	flex-wrap: wrap;
+	padding:0.5rem;
+}
+label{
+	padding: 0.3rem;
+	width: 140px;
+
+}
+input{
+	flex:7;
+	padding: 0.5rem;
+	margin-right: 1rem;
+}
+textarea{
+	flex: 7;
+	margin-right: 1rem;
+}
+button{
+	margin-top: 0.7rem;
+	margin-left: 150px;
+	padding: 0.5rem;
+	font-size: 14px;
+}
+#content-table{
+	margin: 25px 0;
+	font-size: 1rem;
+	min-width: 480px;
+}
+
+#content-table thead tr{
+	background: blue;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+#content-table thead tr th{
+	padding: 0.75rem;
+}
+tbody tr{
+	border-bottom: 1px solid black;
+}
+tbody tr td{
+	padding: 0.75rem;
+}
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+.btn{
+	background: green;
+	padding:0.5rem;
+	border:none;
+	color: #fff;
+	font-size: 1rem;
+	margin-top:1rem;
+	text-decoration: none;
+	border-radius: 5px;
+}		
+.btn:hover{
+	color: #fff;
+}
